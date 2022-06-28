@@ -41,8 +41,12 @@ print(dictionary)
 ##################################  MY dictionary ########################### #/
 
 
-
-
+dictionary = {
+ "song": "Finesse",
+ "streams": 1400000000,
+ "posted":True,
+ "arists": ["Bruno Mars","Cardi B']
+            }
 
 
 ########################################################################## #/
@@ -53,23 +57,29 @@ print("------------------- CHALLENGE 2 : MODIFY   -------------------")
 
 #-->TODO: Print your dictionary you created above
 
-
+print(dictionary)
 #-->TODO: Update the dictionary you just created  by adding new properties and values, including list elements, in this section.
 
-
+dictionary.update({"yearReleased":2018})
+            
 #-->TODO: Print your dictionary again and observe changes
 
+print(dictionary)
 
 print("------------------- CHALLENGE 3 : MEHTODS   -------------------")
 
 
 #-->TODO: Make a method that will update your dictionary value. It should take in a dictionary and return it modified.
 
-
+def udv(a):
+   dictionary.update({"songCover":"linkurl"})
+            
 #-->TODO: Call the method.
 
-
+udv(dicitonary)
 
 print("------------------- CHALLENGE 4 : LITERALLY   -------------------")
 
 #-->TODO: Put it all together using a string literal to tell the story of your dictionary!
+
+print(f"{dictionary}")
