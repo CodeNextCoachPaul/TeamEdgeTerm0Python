@@ -26,7 +26,8 @@ for x in range(11):
 
 #-->TODO: Write a loop that prints a happy birthday message for every year you have been alive.
 
-
+for x in range(20):
+    print("Happy birthday")
 
 print("------------------- CHALLENGE 2 : ITERATOR ----------------------")
 
@@ -38,11 +39,12 @@ for x in colors:
     print("The color is: " + x)
 
 #-->TODO: Declare a list with at least 5 animals. You provide the animals.
-animals = []
+animals = ["dog","chicken","cat","lion","turtle"]
 
 #-->TODO: Print all the animals in the array with a for loop. 
 
-
+for each in animals:
+     print(each)
 
 print("------------------- CHALLENGE 3 : EVEN COUNTDOWN ------------------")
 
@@ -58,9 +60,16 @@ else:
 
 #-->TODO: Write a function that counts BACKWARDS from 100 and prints only even numbers
 
+randHund = random.randint(101,0)
+if randHund%2==0:
+     print(str(randHund))
 
 #-->TODO: Write a function that counts BACKWARDS from the given random number and prints only odd numbers
-
+randOne = random.randint(1000,0)
+randTwo = random.randint(1000,0)
+randNum = random.randint(randOne,randTwo)
+if randNum%2==0:
+     print(str(randNum))
 
 print("------------------- CHALLENGE 4 : Finder ------------------")
 
@@ -73,15 +82,25 @@ else:
 
 #-->TODO Declare a list of any strings you  want: cities, friends, movies, etc.
 
-
+strList = ["Juice WRLD", "Central Cee", "Kanye", "Jack Harlow"]
 
 #-->TODO Write function to prompt the user to "Guess" if an element is present in your list. Store their response in a variable. 
 #   --> If their guess is in your list, print CONGRATULATIONS!
 
+def guess():
+    for total_guesses in range(5):
+         guess = int(input())    
+
+    if guess in strList: :
+         total_guesses = str(total_guesses + 1)
+         print("contained")
+else:
+    total_guesses = str(total_guesses + 1)
+    print("wrong")
 
 #-->TODO Call your function.
 
-
+guess()
 
 print("------------------- CHALLENGE 5 : Nested ------------------")
 
@@ -99,5 +118,11 @@ for color in colors:
 
 #-->TODO Write a function that prints every letter in a sentence that a user enters.
 
+sent = input("Enter sentence")
+for each in sent:
+    for c in eachh:
+        print(c)
 
 #-->CHALLENGE: Let the user know which word is the shortest one!
+
+#will come back to it
