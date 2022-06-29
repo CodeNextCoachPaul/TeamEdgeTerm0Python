@@ -30,14 +30,15 @@ print("My Simple Calculator")
 # Write a function called add_numbers that will take two numbers and return the sum.
 
 
-
-
+def add_numbers(a,b):
+	print(a+b)
 
 
 
 # Write a function called sub_numbers that will take two numbers and return the difference.
 
-
+def sub_numbers(a,b):
+	print(a-b)
 
 
 
@@ -69,6 +70,9 @@ print("My Simple Calculator")
 # Write a function called multiply_numbers that will take two numbers and return the product.
 
 
+def multiply_numbers(a,b):
+	print(a*b)
+
 
 
 
@@ -76,6 +80,8 @@ print("My Simple Calculator")
 # Write a function called divide_numbers that will take two numbers and return the quotient.
 
 
+def divide_numbers(a,b):
+	print(a/b)
 
 
 
@@ -102,23 +108,17 @@ print("My Simple Calculator")
 
 # -------------------------------------------- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+operation = input("What operation would you like to do (add,sub,div,mult)")
+num1 = int(input("Type a number"))
+num2 = int(input("Type another number"))
+if operation = "add":
+	add_numbers(num1,num2)
+if operation = "sub":
+	sub_numbers(num1,num2)
+if operation = "div":
+	div_numbers(num1,num2)
+if operation = "mult":
+	multiply_numbers(num1,num2)
 # -------------------------------------------- 
 
 # Part 4: 
@@ -140,24 +140,6 @@ print("My Simple Calculator")
 		# Test your code!
   
 # -------------------------------------------- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
