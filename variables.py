@@ -24,7 +24,7 @@ print(f"A fun fact about me is that {funFact}")
 # **** Challenge 1: Problem 1 ****
 # Initalize the variables with your response for the three statements above! 
 # Hint: Also think about where you would initialize those variables
-name = "Paul
+name = "Paul"
 grade = 14
 funFact = "I am going to concerts for The Kid Laroi and Sasha Sloan this summer"
 print(f"Hi! My name is {name}")
