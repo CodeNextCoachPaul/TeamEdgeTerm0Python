@@ -27,8 +27,8 @@ import random
 	# Print instructions on the screen and 
 	# prompt the user to ask a question
 
-	
-
+print("How a Magic 8 Ball Works:\nThe user asks a question and vigoriously shakes the ball. \nThen the ball will respond with one of twenty responses, chosen at random. \nThat's pretty simple right?")
+question = input("Ask a question")
   # --------------------------------------------
 
 
@@ -76,24 +76,31 @@ import random
 
   # -------------------------------------------- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+response = (random.randint(0, 19))
+if response = 0:
+	print(" It is certain.")
+if response = 1:
+	print("It is decidedly so.")
+if response = 2:
+	print("Without a doubt.")
+if response = 3:
+	print("Yes - definitely.")
+if response = 4:
+	print("You may rely on it.")
+if response = 5:
+	print("As I see it, yes.")
+if response = 6:
+if response = 7:
+if response = 8:
+if response = 9:
+if response = 10:
+if response = 11:
+if response = 12:
+if response = 13:
+if response = 14:
+if response = 15:
+if response = 16:
+if response = 17:
 
 # -------------------------------------------- 
 
@@ -102,20 +109,3 @@ import random
 	# Select your own theme and use case and modify your code!
 	
 # -------------------------------------------- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
