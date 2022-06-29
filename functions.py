@@ -20,30 +20,54 @@ print("------------------- Challenge 1 -------------------")
 # **** Challenge 1: Problem 1 ****
 # Write a function called print_message() that prints any message you want.
 
-
+def print_message(a):
+	print(a)
+print_message("cheeseburger")
 # **** Challenge 1: Problem 2 ****
 # Write a function called print_five_messages() that calls print_message() five times.
 
+def print_five_message():
+	print_message("cheeseburger")
+	print_message("cheeseburger")
+	print_message("cheeseburger")
+	print_message("cheeseburger")
+	print_message("cheeseburger")
+print_five_message()
 
 # **** Challenge 1: Problem 3 ****
 # Write a function called get_user_input() that asks the user if they'd like to print your message
 # once or five times. Then call one of the two functions above based on what the user decides.
 
+def get_user_input(a):
+	if final == 1:
+		print_message("cheeseburger")
+	else:
+		print_five_message()
+final = int(input("Would you like to print your message once or 5 times (say 1 or 5)"))
+get_user_input(final)
 
 # **** Challenge 1: Problem 4 ****
 # Write a function called print_greeting() that prints a greeting message to the user.
 
+print_greeting(a):
+	print(a)
+print_greeting("hi")
 
 # **** Challenge 1: Problem 5 ****
 # Write a function called print_closing() that prints a goodbye message to the user.
-
+print_closing
+	print(a)
+print_closing("bye")
 
 # **** Challenge 1: Problem 6 ****
 # Write a function called run() that greets the user, asks them for input, and sends a goodbye message.
 # Remember! Use the functions that you've already made. Don't hardcode anything!
 
-
-
+def run():
+	print_greeting("hi")
+	get_user_input(final)
+	print_closing("bye")
+run()
 # -------------------------------------------- 
 
 # Challenge 2: Functions are also able to take input and return output. 
@@ -67,8 +91,11 @@ print("------------------- Challenge 2 -------------------")
 
 
 
-
-
+def sum_double(a,b):
+	if a==b:
+		return(a+b)*2)
+	else:
+		return(a+b)
 
 
 # Make sure to test your code! Write a few function calls to make sure your code works!
@@ -86,7 +113,9 @@ print("------------------- Challenge 2 -------------------")
 
 # -------------------------------------------- 
 
-
+def makes_10(a,b):
+	if a==10 or sum(a+b+==10:
+			return True
 
 
 
@@ -111,8 +140,13 @@ print("------------------- Challenge 2 -------------------")
 
 # -------------------------------------------- 
 
-
-
+def alarm(a,b):
+	if a==6 or a==7 or b==True
+		print("off")
+	elif a==1 or a==2 or a==3 or a==4 a==5:
+		if b == False:
+			print("7:00")
+#Sunday is a weekend, don't get why it says alarm_clock(0, False) → "10:00"
 
 
 
@@ -136,9 +170,16 @@ print("------------------- Challenge 2 -------------------")
 
 # -------------------------------------------- 
 
+def ticket(a):
+	if a<=60:
+		result = 0
+	elif a>=61 and a<80:
+		result = 1
+	else:
+		result = 2
+	print(result)
 
-
-
+speed = int(input("Speed"))
 
 
 
