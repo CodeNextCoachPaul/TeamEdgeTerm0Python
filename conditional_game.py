@@ -27,23 +27,10 @@ import random
 	# Print instructions on the screen and 
 	# prompt the user to ask a question
 
-print("How a Magic 8 Ball Works:\nThe user asks a question and vigoriously shakes the ball. \nThen the ball will respond with one of twenty responses, chosen at random. \nThat's pretty simple right?")
-question = input("Ask a question")
   # --------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("How a Magic 8 Ball Works:\n\nThe user asks a question and vigoriously shakes the ball.\nThen the ball will respond with one of twenty responses, chosen at random. \n\nThat's pretty simple right?")	
+question = input("Ask a question")
 
 # -------------------------------------------- 
 
@@ -90,17 +77,33 @@ if response = 4:
 if response = 5:
 	print("As I see it, yes.")
 if response = 6:
+	print("Most likely")
 if response = 7:
+	print("Outlook good")
 if response = 8:
+	print("Yes.")
 if response = 9:
+	print("Signs point to yes")
 if response = 10:
+	print("Reply hazy, try again")
 if response = 11:
+	print("Ask again later")
 if response = 12:
+	print("Better not tell you now.")
 if response = 13:
+	print("Cannot predict now")
 if response = 14:
+	print("Concentrate and ask again")
 if response = 15:
+	print("Don't count on it")
 if response = 16:
+	print("My reply is no")
 if response = 17:
+	print("My sources say no")
+if response = 18:
+	print("Outlook not so good")
+if response = 19:
+	print("Very doubtful")
 
 # -------------------------------------------- 
 
