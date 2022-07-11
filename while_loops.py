@@ -51,7 +51,9 @@ items = ["pencil" , "eraser" , "mirror" , "comb" , "spoon" , "key" , "earrings" 
 
 #-->TODO: Use a while loop to search the contents of a list for the key! If it exists, print "found the key!"
 
-
+while "key" in items:
+    print("found the key!")
+    break
 
 print("------------------- CHALLENGE 3 : BUGGIN   -------------------")
 
@@ -61,9 +63,10 @@ print("------------------- CHALLENGE 3 : BUGGIN   -------------------")
 #-->TODO: Make me count  2, 4, 6,..., 50
 
 def even_numbers_to_fifty():
-    num = 50
+    num = 0
     while num < 50:
-        print("number: " + str(num))
+        print(num)
+        num+=2
 
 even_numbers_to_fifty()
 
@@ -116,17 +119,16 @@ print("------------------- CHALLENGE 5 : WHAT AM I?   -------------------")
 keep_asking = False
 
 def prompt_user():
+    ask = input("Enter a word")
+    response(ask)
     pass
 
 def response(response):
+    print(f"I know you are a {ask} but what am I?")
     pass
 
 while keep_asking:
-    #response(prompt_user())
+    response(prompt_user())
     pass
 
 #-->TODO: Challenge! write a secret word to break out of the loop!
-
-
-
-
