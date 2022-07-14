@@ -103,13 +103,22 @@ print("------------------- CHALLENGE 4 : MATH QUIZ   -------------------")
 
 
 
-#-->TODO: Make a Math Quiz that asks two random numbers (between 0 and 100 to make it easy).
+#-->TODO: Make a Math Quiz that adds two random numbers (between 0 and 100 to make it easy).
 #         The user enters the answer. If wrong, keep prompting. If correct, say congrats!!
 #         Use this handy boolean to get you started! You will need input()!
-
+import random
 is_correct = False
-
-
+rand1 = randint(0,101)
+rand2 = randint(0,101)
+newNum = rand1+rand2
+while is_correct = False:
+   answer = int(input("Guess the number"))
+   if answer == newNum:
+       print("correct")
+       break
+   
+     
+                  
 print("------------------- CHALLENGE 5 : WHAT AM I?   -------------------")
 
 #-->TODO: Write a game loop that prompts that never stops asking, "I know you are a _____, but what am I?"
