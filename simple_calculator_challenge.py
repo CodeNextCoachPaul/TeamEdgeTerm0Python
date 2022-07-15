@@ -111,13 +111,13 @@ def divide_numbers(a,b):
 operation = input("What operation would you like to do (add,sub,div,mult)")
 num1 = int(input("Type a number"))
 num2 = int(input("Type another number"))
-if operation = "add":
+if operation == "add":
 	add_numbers(num1,num2)
-if operation = "sub":
+if operation == "sub":
 	sub_numbers(num1,num2)
-if operation = "div":
+if operation == "div":
 	div_numbers(num1,num2)
-if operation = "mult":
+if operation == "mult":
 	multiply_numbers(num1,num2)
 # -------------------------------------------- 
 
