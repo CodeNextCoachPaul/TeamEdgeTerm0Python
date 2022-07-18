@@ -21,7 +21,7 @@ print("------------------- CHALLENGE 1 : COUNTER -------------------")
 #this list prints every number between 0 and 10, using range
 
 for x in range(11):
-    print("Counter at: " + str(x))
+    print(str(x))
    
 
 #-->TODO: Write a loop that prints a happy birthday message for every year you have been alive.
@@ -50,7 +50,7 @@ print("------------------- CHALLENGE 3 : EVEN COUNTDOWN ------------------")
 
 
 #The line below makes a random number between 0-50 and assigns it to the random variable
-random = random.randint(0, 50)
+random = random.randint(0, 51)
 
 #this if/else statement checks if the number is even using the modulo operator (%)
 if random % 2 == 0:
